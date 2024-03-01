@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://k4m4l0v.github.io/item-list/",
   "private": true,
   "dependencies": {
     "@testing-library/react": "^13.4.0",
