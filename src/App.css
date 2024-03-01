@@ -1,0 +1,16 @@
+.card {
+  width: 150px;
+  border: 2px solid black;
+}
+
+.productsList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.productsList li {
+  border-bottom: 1px solid black;
+}
