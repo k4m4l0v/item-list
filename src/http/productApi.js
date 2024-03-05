@@ -5,7 +5,7 @@ const stamp = new Date().toISOString().split('T')[0].split('-').join('');
 const pass = md5(`Valantis_${stamp}`);
 
 export const fetchIds = async (limit, offset) => {
-    const response = await axios.post('http://api.valantis.store:40000/', {
+    const response = await axios.post('https://api.valantis.store:41000/', {
         action: 'get_ids',
         params: {
             limit,
@@ -22,7 +22,7 @@ export const fetchIds = async (limit, offset) => {
 }
 
 export const fetchProducts = async (data) => {
-    const response = await axios.post('http://api.valantis.store:40000/', {
+    const response = await axios.post('https://api.valantis.store:41000/', {
         action: 'get_items',
         params: {
             ids: [data]
